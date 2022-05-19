@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Bookmark your Website" />
+    <meta name="author" content="Mohamed Atef Mohamed" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/index-style.css" />
+    <title>Bookmark</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="header p-5">
+            <h3 class="fw-bold">Bookmarker</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="data-input m-3 p-4 text-center">
+            <h2 class="text-black fw-bold fs-4">
+              Bookmark your favorite sites
+            </h2>
+            <div>
+              <label class="m-3 fw-bold">Site Name</label>
+              <input
+                id="bookmarkName"
+                type="text"
+                placeholder="Bookmark Name"
+                class="form-control w-75 m-auto"
+              />
+              <div class="alert alert-danger w-75 m-auto mt-3 d-none">
+                Site Name is Required
+              </div>
+            </div>
+            <div>
+              <label class="m-3 fw-bold">Site URL</label>
+              <input
+                id="bookmarkUrl"
+                type="text"
+                placeholder="Website URL"
+                class="form-control w-75 m-auto"
+              />
+              <div class="alert alert-danger w-75 m-auto mt-3 d-none">
+                Site URL is Required
+              </div>
+            </div>
+            <button class="btn btn-primary my-3">Submit</button>
+            <button class="btn btn-success my-3 d-none">Update Bookmark</button>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="data-input p-4 mx-3 mb-3">
+            <input
+              type="text"
+              class="form-control w-50 mx-auto"
+              placeholder="Search"
+            />
+            <button class="btn btn-danger d-block ms-auto mt-2">
+              Clear All Bookmarks
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="data-output"></div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="footer py-4 px-5">
+            <p class="fw-bold">© 2022 Bookmarker Inc.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
